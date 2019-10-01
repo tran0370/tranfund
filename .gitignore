@@ -110,3 +110,10 @@ venv.bak/
 
 node_modules/
 yarn.lock
+
+# Apple Mac
+
+.DS_Store
+
+# VS Code
+.vscode
