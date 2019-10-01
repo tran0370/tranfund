@@ -1,0 +1,41 @@
+{% extends 'plans/base.html' %} {% block content %} {% load staticfiles %}
+
+<!-- <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <h1 class="display-4">The Tran Family Fund</h1>
+  <p class="lead">Investing in the Future</p>
+  <a href="{% url 'join' %}"
+    ><button type="button" class="btn btn-lg btn-primary">
+      membership
+    </button></a
+  >
+</div> -->
+
+<div class="video-container">
+  <video playsinline autoplay muted loop width="100%">
+    <source src="media/future.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div class="overlay-desc">
+    <h4>
+      The Tran Family Fund creates opportunities <br />
+      to come together and improve the well-being<br />
+      of those affected by the Vietnamese diaspora.
+    </h4>
+  </div>
+</div>
+
+<div class="container">
+  <!-- between the h3 where trending articles was -->
+  <h3></h3>
+
+  <ul>
+    {% for plan in plans.all %}
+
+    <li>
+      <a href="{% url 'plan' plan.id %}">{{ plan.title }}</a>
+    </li>
+
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}

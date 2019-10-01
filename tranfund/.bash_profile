@@ -1,0 +1,6 @@
+export stripe_publickey = "pk_test_7rXe25GBYZO5It7r9Jq60b2O"
+export stripe_secretkey = "sk_test_l9LuCWiIHQzLeIJISZFll1j3"
+export plaid_clientid = "5d79ab52cc8ae70014345658"
+export plaid_publickey = "06e33e20c0ea2600f037c23af55594"
+export plaid_development = "8f2cc57a871b46f07cf1827359d7a4"
+export plaid_sandbox = "68a97d9a379698a51e569fda81dfc6"

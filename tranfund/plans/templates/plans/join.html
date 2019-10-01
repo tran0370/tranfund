@@ -1,0 +1,148 @@
+{% extends 'plans/base.html' %} {% block content %}
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <h1 class="display-4">Membership</h1>
+  <p class="lead">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit error et
+    sequi, veritatis illum sapiente. Iure eius obcaecati quod repellendus,
+    deleniti est ut quae non sunt rem, velit dolorum! Delectus.
+  </p>
+</div>
+
+<div class="container">
+  <div class="card-deck mb-3 text-center">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Monthly</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">
+          $10 <small class="text-muted">/ mo</small>
+        </h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Lorem ipsum dolor elit</li>
+          <li>sit amet consectetur adipisicing</li>
+          <li>ommodi quasi voluptatum</li>
+          <li>oluptate nesciunt id officia</li>
+        </ul>
+        <a href="{% url 'checkout' %}?plan=five"
+          ><button type="button" class="btn btn-lg btn-circle btn-primary">
+            $5
+          </button></a
+        >
+
+        <!-- <div class="card mb-4 shadow-sm">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">
+                  Gold<small class="text-primary"></small>
+                </h4>
+              </div> -->
+        <!-- <div class="card-body"> -->
+        <!-- <h1 class="card-title pricing-card-title">
+                  $20 <small class="text-muted">/ mo</small> -->
+        <!-- </h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Lorem ipsum dolor elit</li>
+                  <li>sit amet consectetur adipisicing</li>
+                  <li>ommodi quasi voluptatum</li>
+                  <li>oluptate nesciunt id officia</li>
+                </ul> -->
+        <a href="{% url 'checkout' %}?plan=Ten"
+          ><button type="button" class="btn btn-lg btn-circle btn-primary">
+            $10
+          </button></a
+        >
+
+        <a href="{% url 'checkout' %}?plan=Fifteen"
+          ><button type="button" class="btn btn-lg btn-circle btn-primary">
+            $15
+          </button></a
+        >
+
+        <a href="{% url 'checkout' %}?plan=Twenty"
+          ><button type="button" class="btn btn-lg btn-circle btn-primary">
+            $20
+          </button></a
+        >
+        <a href="{% url 'checkout' %}?plan=Twenty-Five"
+          ><button type="button" class="btn btn-lg btn-circle btn-primary">
+            $25
+          </button></a
+        >
+        <a href="{% url 'checkout' %}?plan=Thirty"
+          ><button type="button" class="btn btn-lg btn-circle btn-primary">
+            $30
+          </button></a
+        >
+        <a href="{% url 'checkout' %}?plan=Forty"
+          ><button type="button" class="btn btn-lg btn-circle btn-primary">
+            $40
+          </button></a
+        >
+        <a href="{% url 'checkout' %}?plan=Fifty"
+          ><button type="button" class="btn btn-lg btn-circle btn-primary">
+            $50
+          </button></a
+        >
+        <a href="{% url 'checkout' %}?plan=One-Hundred"
+          ><button type="button" class="btn btn-lg btn-circle btn-primary">
+            $100
+          </button></a
+        >
+        <a href="{% url 'checkout' %}?plan=Two-Hundred"
+          ><button type="button" class="btn btn-lg btn-circle btn-primary">
+            $200
+          </button></a
+        >
+      </div>
+      <!-- </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">
+          Yearly<small class="text-primary"> Save $20!</small>
+        </h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">
+          $100 <small class="text-muted">/ yr</small>
+        </h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Lorem ipsum dolor elit</li>
+          <li>sit amet consectetur adipisicing</li>
+          <li>ommodi quasi voluptatum</li>
+          <li>oluptate nesciunt id officia</li>
+        </ul>
+        <a href="{% url 'checkout' %}?plan=yearly"
+          ><button type="button" class="btn btn-lg btn-circle btn-primary">
+            $100
+          </button></a
+        >
+      </div>
+
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">
+            Gold<small class="text-primary"></small>
+          </h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">
+            $20 <small class="text-muted">/ mo</small>
+          </h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Lorem ipsum dolor elit</li>
+            <li>sit amet consectetur adipisicing</li>
+            <li>ommodi quasi voluptatum</li>
+            <li>oluptate nesciunt id officia</li>
+          </ul>
+          <a href="{% url 'checkout' %}?plan=gold"
+            ><button type="button" class="btn btn-lg btn-block btn-primary">
+              Gold
+            </button></a
+          >
+        </div>
+      </div>
+    </div> -->
+    </div>
+    {% endblock %}
+  </div>
+</div>
