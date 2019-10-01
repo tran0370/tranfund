@@ -1070,3 +1070,7 @@ table#change-history tbody th {
 .popup #header {
   padding: 10px 20px;
 }
+
+.btn-space {
+  margin-right: 15px;
+}

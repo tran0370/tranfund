@@ -15,9 +15,9 @@
         <h4 class="my-0 font-weight-normal">Monthly</h4>
       </div>
       <div class="card-body">
-        <h1 class="card-title pricing-card-title">
+        <!-- <h1 class="card-title pricing-card-title">
           $10 <small class="text-muted">/ mo</small>
-        </h1>
+        </h1> -->
         <ul class="list-unstyled mt-3 mb-4">
           <li>Lorem ipsum dolor elit</li>
           <li>sit amet consectetur adipisicing</li>
@@ -25,7 +25,7 @@
           <li>oluptate nesciunt id officia</li>
         </ul>
         <a href="{% url 'checkout' %}?plan=five"
-          ><button type="button" class="btn btn-lg btn-circle btn-primary">
+          ><button type="button" class="btn btn-lg btn-circle btn-primary ">
             $5
           </button></a
         >
@@ -63,6 +63,7 @@
             $20
           </button></a
         >
+        <div class="divider" />
         <a href="{% url 'checkout' %}?plan=Twenty-Five"
           ><button type="button" class="btn btn-lg btn-circle btn-primary">
             $25
@@ -78,6 +79,7 @@
             $40
           </button></a
         >
+        <br />
         <a href="{% url 'checkout' %}?plan=Fifty"
           ><button type="button" class="btn btn-lg btn-circle btn-primary">
             $50

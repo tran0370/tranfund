@@ -18,3 +18,7 @@ html {
 .card-deck .card {
   min-width: 220px;
 }
+
+.btn-space {
+  margin-right: 15px;
+}
